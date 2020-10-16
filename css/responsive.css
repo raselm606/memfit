@@ -1,0 +1,293 @@
+/*responsive css start*/
+
+/*Galaxy 5s*/
+@media only screen and (min-width: 360px) and (max-width: 640px) { 
+	.login-logo {
+    left: 33% !important;
+}
+.orr-signup p:before {
+    left: 163px !important;
+}
+.orr-signup p:after {
+    left: 163px !important;
+}
+.dark-area-login {
+    height: 240px;
+}
+.divnav {
+    width: 346px !important;
+    margin-left: -187px !important;
+    }
+
+    .slider-area {
+    height: 430px;
+
+}
+.slider-text h1 {
+    margin-top: 92px;
+}
+
+.slider-text-service span {
+    font-size: 27px !important;
+    color: #666;
+}
+.about-img-one,  .about-img-three, .about-img-two{
+	position: relative;
+}
+.about-img-one:before, .about-img-two:before,  .about-img-three:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.62);
+}
+.about-img-one {
+    height: 285px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.about-img-two {
+    height: 285px;
+    background-position: center center;
+    background-size: cover;
+}
+.about-img-three {
+    height: 285px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.about-itm-text p{
+	color: #eee;
+}.about-itm-text-two p{
+	width: auto !important;
+	margin-left: 10px !important;
+	color: #eee;
+}
+.about-itm-text h2{
+	margin-left: -10px;
+	color: #fff;
+	
+}
+.about-itm-text-two h2{
+	color: #fff;
+
+}
+.section-pad {
+    padding-top: 30px;
+}
+
+.section-title {
+    margin-bottom: 30px;
+}
+.about-itm-text, .about-itm-text-two {
+    position: absolute;
+    margin-top: -18px;
+}
+.about-itm-text-two h2 {
+    margin-left: 7px;
+}
+.section-title h2 {
+    font-size: 32px;
+}
+.login-title.section-title h2 {
+    font-size: 32px !important;
+}
+
+.section-title.login-title {
+    margin-top: 30px;
+    margin-bottom: 30px !important;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+/*Iphone 5 or smaller device*/
+@media only screen and (min-width: 320px) and (max-width: 568px) { 
+	.slider-text h1 {
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.nav-logoo a img {
+    width: 67px;
+    margin-top: -7px;
+}
+.slider-area{
+	margin-top: 30px;
+}
+.nav-logoo .navbar-toggle {
+    background: #333;
+}
+.navbarr-area:before{
+	display: none;
+}
+ul.nav.navbar-nav.nav-menuu li.active a{
+	display: inline;
+}
+
+.about-slider-area {
+    margin-top: 51px;
+}
+.navbarr-area .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	border: none !important;
+}
+ul.nav.navbar-nav.nav-menuu {
+    margin-top: 48px;
+}
+.orr-signup p {
+    margin-bottom: 380px !important;
+    margin-top: 50px;
+}
+.orr-signup p:after {
+    height: 98px;
+    left: 146px;
+}
+.orr-signup p:before {
+    height: 98px;
+    left: 146px;
+}
+.login-logo {
+    left: 30%;
+}
+.dark-area-login {
+    height: 240px;
+}
+	
+.about-itm-text h2 {
+    font-size: 60px;
+}
+.about-itm-text-two h2{
+	font-size: 60px;
+}
+.about-itm-text-two p{
+	width: 200px;
+}
+a.navbar-brand.logo-brand img {
+    width: 80px;
+    margin-left: -46px;
+}
+/*nav icon burger*/
+.divnav {
+    display: none;
+}
+.burger-iccon{
+    display: block;
+}
+a.logo-brand img {
+    width: 65px;
+    margin-left: -72px;
+}
+
+ul.divnav li {
+    display: block;
+    text-align: left;
+}
+.divnav {
+    width: 310px;
+    margin-left: -171px;
+    margin-top: 30px;
+    background: #000;
+    padding: 30px;
+}
+
+.colaas li a{
+	color: #fff;
+}
+.section-pad {
+    padding-top: 30px;
+}
+.section-title {
+    margin-bottom: 30px;
+}
+.about-itm-text, .about-itm-text-two {
+    position: absolute;
+    margin-top: -18px;
+}
+.about-itm-text-two h2 {
+    margin-left: 7px;
+}
+.section-title h2 {
+    font-size: 32px;
+}
+
+.about-img-one:before, .about-img-two:before,  .about-img-three:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.62);
+}
+.about-img-one {
+    height: 285px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.about-img-two {
+    height: 285px;
+    background-position: center center;
+    background-size: cover;
+}
+.about-img-three {
+    height: 285px;
+    background-position: center center;
+    background-size: cover;
+}
+.about-img-one,  .about-img-three, .about-img-two{
+    position: relative;
+}
+.about-itm-text p{
+    color: #eee;
+}.about-itm-text-two p{
+    width: auto !important;
+    margin-left: 10px !important;
+    color: #eee;
+}
+.about-itm-text h2{
+    margin-left: -10px;
+    color: #fff;
+    
+}
+.about-itm-text-two h2{
+    color: #fff;
+
+}
+.slider-area {
+    height: 519px;
+}
+.slider-text-service span {
+    font-size: 32px;
+    margin-left: 5px;
+}
+.login-title.section-title h2 {
+    font-size: 27px !important;
+}
+.section-title.login-title {
+    margin-top: 30px;
+    margin-bottom: 30px !important;
+}
+
+
+
+
+
+
+
+
+
+}
